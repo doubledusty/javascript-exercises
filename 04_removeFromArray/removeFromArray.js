@@ -1,4 +1,6 @@
-const removeFromArray = function() {
+const removeFromArray = function(fullList, toRemove) {
+    let arrayList = Array.from(fullList)
+    arrayList.forEach()
 
 };
 

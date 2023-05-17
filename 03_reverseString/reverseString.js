@@ -1,8 +1,8 @@
 const reverseString = function(inputString) {
     outputString = ""
 
-    for (i = 1; i < inputString.length; i++){
-        outputString = outputString.concat(inputString[inputString.length - i,inputString.length - i + 1])
+    for (i = 0; i < inputString.length; i++){
+        outputString = inputString.charAt(i) + outputString
     }
     return outputString
 };
